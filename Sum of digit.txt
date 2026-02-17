@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int num,tens,ones,sum;
+    printf("enter the number \n");
+    scanf("%d",&num);
+    tens=num/10;
+    ones=num%10;
+    sum=(tens+ones);
+    if(num>=10&&num<=99){
+        printf("sum of two digits=%d\n",sum);
+    }
+    else{
+        printf("The number is invalid\n");
+    }
+return 0;    
+}
