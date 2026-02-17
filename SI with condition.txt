@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int p,r,t;
+    float si;
+    printf("enter the value of p,r,t\n");
+    scanf("%d%d%d",&p,&r,&t);
+    si=(p*r*t)/100;
+    if(p>50000){
+        printf("simple interest=%f\n",si);
+    }
+    else{
+        printf("The principle amount is less than 50000");
+    }
+return 0;    
+}
