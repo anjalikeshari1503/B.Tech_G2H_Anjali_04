@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+   int a=25,b=5;
+   printf("addition=%d\n",a+b);
+   printf("subtraction=%d\n",a-b);
+   printf("multiplication=%d\n",a*b);
+   printf("division=%d\n",a/b);
+   printf("modulus=%d\n",a%b);
+   printf("increment=%d\n",++a);
+   printf("decrement=%d\n",--b);
+   printf("unary plus=%d\n",+a);
+   printf("unary minus=%d\n",-a);
+   return 0;
+}
