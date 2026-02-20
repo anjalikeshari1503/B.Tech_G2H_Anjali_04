@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include <math.h>
+int main()
+{
+    char h ;
+    printf("enter the character\n");
+    scanf("%c",&h);
+    if ((h>='0')&&(h<='9'))
+        printf("The character is a digit\n");
+    else if (h>='A' && h<='Z'||h>='a' && h<='z')
+    printf("The input is a character\n ");
+    
+    else{
+        printf("The input is a special character\n");
+    }
+    return 0;
+}
