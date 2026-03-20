@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+   int arr[8]={1,2,3,4,5,6,7,8};
+   int evencount=0;
+   int oddcount=0;
+  
+   for(int i=0;i<8;i++){
+       if(arr[i]%2==0){
+           evencount++;
+       }
+       else{
+           oddcount++;
+       }
+       
+   }
+  printf("even=%d odd=%d",evencount,oddcount);
+   
+    return 0;
+}
