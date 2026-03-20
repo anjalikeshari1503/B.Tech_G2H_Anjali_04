@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int max;
+    int arr[7]={45,27,57,12,67,35,32};
+     max =arr[0];
+    for(int i=0;i<7;i++){
+        
+        if(max<arr[i]){
+              max=arr[i];
+        }
+    }
+    printf("max no of array=%d\n",  max);
+    return 0;
+}
