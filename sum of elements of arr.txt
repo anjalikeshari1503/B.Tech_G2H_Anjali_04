@@ -2,6 +2,7 @@
 
 int main() {
     int n ,sum=0;
+    float avg ;
     printf("enter no. of elements\n");
    scanf("%d",&n);
    int arr[n];
@@ -10,7 +11,9 @@ int main() {
    for(int i=0;i<n;i++){
        scanf("%d",&arr[i]);
        sum = sum+arr[i];
+       avg = sum /n;
    }
    printf("sum of elements of array=%d\n",sum);
+   printf("average of elements of array=%f\n",avg);
     return 0;
 }
