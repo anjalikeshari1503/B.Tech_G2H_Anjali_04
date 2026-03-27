@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int n ;
+    float sum=0.00 ;
+    printf("enter the no. of elements in series ");
+    scanf("%d",&n);
+   for(int i=1;i<=n;i++){
+       sum = sum +(1.0/i);
+   }
+   printf("sum of series=%f",sum);
+    return 0;
+}
